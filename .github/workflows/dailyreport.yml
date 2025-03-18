@@ -3,8 +3,8 @@ name: daily-report
 on:
   schedule:
     - cron: '1 * * * *'
-  workflow-dispatch:
-  
+  workflow_dispatch:
+
 jobs:
   my-jobs: 
     runs-on: ubuntu-latest
