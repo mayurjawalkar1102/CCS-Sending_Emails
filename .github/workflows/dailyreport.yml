@@ -2,7 +2,9 @@ name: daily-report
 
 on:
   push:
-    - main
+    branches: 
+      - main  
+  
   workflow_dispatch:
 
 
